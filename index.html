@@ -1,105 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jayasree Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <!-- Header Section -->
-    <header>
-        <h1>Jayasree</h1>
-        <p></p>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#certificate">Certificate</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <!-- About Section -->
-    <section id="about">
-        <img src="jayasree.jpg" alt="Jayasree" class="profile-img">
-        <h2>Personal Statement</h2>
-        <p>I'm currently pursuing an integrated M.Tech in Computer Science and Engineering. I have a growing passion for web development and have recently started working on hands-on projects to build my skills. I'm eager to learn, explore new technologies, and create impactful web experiences.</p>
-    </section>
-    
-    <!-- Skills Section -->
-    <section id="skills">
-        <h2>Technical Skills</h2>
-        <ul>
-            <li>Python</li>
-            <li>C/C++</li>
-            <li>JAVA</li>
-            <li>MATLAB</li>
-            <li>RDBMS</li>
-        </ul>
-        <h2>Soft Skills</h2>
-        <ul>
-            <li>verbal and written Communication</li>
-            <li>Working with Groups</li>
-            <li>Creativity and Innovation</li>
-            <li>Prioritizing Tasks</li>
-            <li>Public speaking</li>
-        </ul>
-    </section>
-    
-    <!-- Projects Section -->
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Chatbot</h3>
-            <a href="chatbot.jpg.png">IMAGE</a><br>
-            <p>chatbot</p>
-        </div>
-        <div class="project">
-            <h3>Hospital Management</h3>
-            <a href="hospital.jpg">IMAGE 1</a><br>
-            <a href="hospital 1.jpg">IMAGE 2</a><br>
-            <p>Database Connectivity</p>
-        </div>
-        <p>Github <a href="https://github.com/jayasree3042005" target="_blank">Link</a></p>
-    </section>
-    <!-- Certificates section-->
-      <section id="certificate">
-        <h2>Certificates</h2>
-        <div class="Certificate">
-            <h3>NPTEL</h3>
-            <a href="Privacy and Security in Online Social Media.pdf">PDF</a><br>
-            <p>privacy and Security in Online Social Media</p>
-        </div>
-        <div class="certificate">
-            <h3>Spoken Tutoiral Project at IIT Bombay</h3>
-            <a href="java.pdf">PDF</a><br> 
-            <p>Java</p>
-        </div>
-        </section>
-     
-    <!-- Resume Section -->
-    <section id="resume">
-        <h2>Resume</h2>
-        <a href="JAYASREE CV.pdf" download class="btn">Download Resume</a>
-    </section>
-    
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:jayasree3042005@gmail.com">jayasree3042005@gmail.com</a></p>
-        <p>Phone: 9025614998</p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/jayasree-a-5736b0300" target="_blank">https://www.linkedin.com/in/jayasree-a-5736b0300</a></p>
-    </section>
-    
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2025 Jayasree. All Rights Reserved.</p>
-        <p><a href="#">Back to Top</a></p>
-    </footer>
+  <!-- Header -->
+  <header id="top">
+    <h1>Jayasree</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certificate">Certificate</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- About -->
+ <!-- About Section -->
+<section id="about" class="reveal">
+  <h2><i class="fas fa-user"></i> About Me</h2>
+  <div class="about-container">
+    <img src="jayasree.jpg" alt="Jayasree" class="profile-img" />
+
+    <div class="about-content">
+      <p>Hello! I'm <strong>Jayasree</strong>, currently pursuing an Integrated M.Tech in Computer Science and Engineering at Sri Ramakrishna Engineering College.</p>
+
+      <p>I'm passionate about web development. I love learning new things and solving real-world problems through code and creativity.</p>
+
+      <p>My goal is to become a professional web developer who creates innovative and user-friendly applications. I'm currently building hands-on projects to improve my practical skills.</p>
+
+      <div class="info-card">
+        <p><i class="fas fa-lightbulb"></i> Fun Fact: I enjoy working on creative designs and love merging technology with education!</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Skills -->
+<section id="skills" class="reveal">
+  <h2>Technical Skills</h2>
+  <div class="skill-style">
+    <div class="skill-item">
+      <div class="skill-icon"><i class="fab fa-python"></i></div>
+      <div class="skill-name">Python</div>
+    </div>
+    <div class="skill-item">
+      <div class="skill-icon"><i class="fas fa-code"></i></div>
+      <div class="skill-name">C / C++</div>
+    </div>
+    <div class="skill-item">
+      <div class="skill-icon"><i class="fab fa-java"></i></div>
+      <div class="skill-name">Java</div>
+    </div>
+    <div class="skill-item">
+      <div class="skill-icon"><i class="fas fa-microchip"></i></div>
+      <div class="skill-name">MATLAB</div>
+    </div>
+    <div class="skill-item">
+      <div class="skill-icon"><i class="fas fa-database"></i></div>
+      <div class="skill-name">RDBMS</div>
+    </div>
+  </div>
+
+  <h2>Soft Skills</h2>
+  <div class="skill-style">
+    <div class="skill-item">
+      <div class="skill-icon"><i class="fas fa-comments"></i></div>
+      <div class="skill-name">Communication</div>
+    </div>
+    <div class="skill-item">
+      <div class="skill-icon"><i class="fas fa-users"></i></div>
+      <div class="skill-name">Teamwork</div>
+    </div>
+    <div class="skill-item">
+      <div class="skill-icon"><i class="fas fa-lightbulb"></i></div>
+      <div class="skill-name">Creativity</div>
+    </div>
+    <div class="skill-item">
+      <div class="skill-icon"><i class="fas fa-tasks"></i></div>
+      <div class="skill-name">Prioritizing Tasks</div>
+    </div>
+    <div class="skill-item">
+      <div class="skill-icon"><i class="fas fa-microphone"></i></div>
+      <div class="skill-name">Public Speaking</div>
+    </div>
+  </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="reveal">
+  <h2><i class="fas fa-laptop-code"></i> Projects</h2>
+
+  <div class="project-box">
+    <h3>Chatbot</h3>
+    <p>A simple chatbot project using natural language processing.</p><br>
+    <a href="chatbot.jpg.png" target="_blank">
+      <i class="fas fa-image"></i> 
+    </a>
+  </div>
+
+  <div class="project-box">
+    <h3>Hospital Management</h3>
+    <p>Hospital database system with patient tracking.</p><br>
+    <a href="hospital.jpg" target="_blank">
+      <i class="fas fa-image"></i> 
+    </a><br>
+    <a href="hospital 1.jpg" target="_blank">
+      <i class="fas fa-image"></i> 
+    </a>
+  </div>
+</section>
+
+<!-- Certificates Section -->
+<section id="certificate" class="reveal">
+  <h2><i class="fas fa-certificate"></i> Certificates</h2>
+
+  <div class="certificate-box">
+    <h3>NPTEL Certification</h3>
+    <p>Privacy and Security in Online Social Media - NPTEL</p><br>
+    <a href="Privacy and Security in Online Social Media.pdf" target="_blank">
+      <i class="fas fa-file-pdf"></i> 
+    </a>
+  </div>
+
+  <div class="certificate-box">
+    <h3>IIT Bombay Certification</h3>
+    <p>Java Programming Course - IIT Bombay Spoken Tutorial</p><br>
+    <a href="java.pdf" target="_blank">
+      <i class="fas fa-file-pdf"></i> 
+    </a>
+  </div>
+</section>
+
+  <!-- GitHub Section -->
+<section class="github-section">
+  <h2><i class="fab fa-github"></i> GitHub</h2>
+  <div class="github-box">
+    <p>Check out my projects on <a href="https://github.com/jayasree3042005" target="_blank">GitHub</a>.</p>
+  </div>
+</section>
+
+  <!-- Resume -->
+  <section id="resume" class="reveal">
+    <h2>Resume</h2><br>
+    <a href="JAYASREE CV.pdf" download class="glow-button">Download Resume</a>
+  </section>
+
+  <!-- Contact -->
+<section id="contact">
+  <h2>Contact</h2>
+  <div class="contact-container">
+    <div class="contact-item">
+      <img src="email.png" alt="Email" class="contact-icon" />
+      <a href="mailto:jayasree3042005@gmail.com">jayasree3042005@gmail.com</a>
+    </div>
+    <div class="contact-item">
+      <img src="phone.png" alt="Phone" class="contact-icon" />
+      <span>9025614998</span>
+    </div>
+    <div class="contact-item">
+      <img src="linkedin.png" alt="LinkedIn" class="contact-icon" />
+      <a href="https://www.linkedin.com/in/jayasree-a-5736b0300" target="_blank">jayasree-a-5736b0300</a>
+    </div>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Jayasree. All Rights Reserved.</p>
+    <a href="#top" class="back-to-top">&#8679;</a>
+  </footer>
+
+  <!-- JavaScript for animations -->
+  <script src="animate.js"></script>
 </body>
 </html>
